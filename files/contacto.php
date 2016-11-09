@@ -98,3 +98,25 @@
 </section>
 <!--/Section: Contact v.1-->
 </main>
+
+
+<script>
+  function initMap() {
+    // Create a map object and specify the DOM element for display.
+    var map = new google.maps.Map(document.getElementById('map-container'), {
+      center: {lat: 8.620901, lng: -70.258677},
+      scrollwheel: false,
+      zoom: 16
+    });
+
+    var marker = new google.maps.Marker({
+    position: {lat: 8.620901, lng: -70.258677},
+    map: map,
+    title: 'CC Doña Mirian'
+  });
+
+  }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCdPOvNJ48etNJgXVyuDOwAdkNO9hS0ZM&callback=initMap"
+async defer></script>

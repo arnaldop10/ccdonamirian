@@ -127,16 +127,19 @@
 <!-- SCRIPTS -->
 
 <!-- JQuery -->
-<script type="text/javascript" src="assets/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/jquery-2.2.3.min.js"></script>
 
 <!-- Tooltips -->
-<script type="text/javascript" src="assets/js/tether.min.js"></script>
+<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/tether.min.js"></script>
 
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/bootstrap.min.js"></script>
 
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="assets/js/newmdb.min.js"></script>
+<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/newmdb.min.js"></script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.js"></script>
 
 <script>
     $(".button-collapse").sideNav();
@@ -144,6 +147,40 @@
     var el = document.querySelector('.custom-scrollbar');
 
     Ps.initialize(el);
+
+</script>
+
+<script>
+
+    var seccion = (window.location.pathname).split('/');
+    //alert(seccion[2]);
+
+    switch(seccion[2]) {
+        case 'galeria':
+            imagen = 'dia';
+            break;
+
+        case 'contacto':
+            imagen = 'fondo2';
+            break;
+
+        case 'servicios':
+            imagen = 'noche';
+            break;
+
+        case 'index.php':
+            imagen = 'fondo';
+            break;
+
+        default:
+            imagen = 'fondo';
+            break;
+
+    }
+
+    $("body").css('background', 'url("assets/img/fondo/'+ imagen +'.jpg") no-repeat center center fixed').delay(500);
+    $('body').css({"background-size":"cover"});
+       
 </script>
 <div class="drag-target" style="-moz-user-select: none; left: 0px;"></div>
 

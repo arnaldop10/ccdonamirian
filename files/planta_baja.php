@@ -15,7 +15,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="http://mdbootstrap.com/images/regular/city/img%20(16).jpg">
+                    <img src="assets/img/tiendas/planta_baja/tienda.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -23,10 +23,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="" class="red-text"><h5><i class="fa fa-beer"></i> Licores</h5></a>
+                    <a href="tiendas/modelo" class="red-text"><h5><i class="fa fa-beer"></i> Licores</h5></a>
                     <h3>El Bodegón de la Colombia</h3>
                     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi incidunt.</p>
-                    <a class="btn btn-ins"><i class="fa fa-clone left"></i> View project</a>
+                    <a href="tiendas/modelo" class="btn btn-ins"><i class="fa fa-clone left"></i> View project</a>
                 </div>
 
             </div>
