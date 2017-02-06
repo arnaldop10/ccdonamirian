@@ -39,15 +39,15 @@
                     </div>
 
                     <div class="md-form">
-                        <i class="fa fa-tag prefix"></i>
+                        <i class="fa fa-phone prefix"></i>
                         <input type="text" id="form32" class="form-control">
-                        <label for="form32">Teléfono</label>
+                        <label for="form32">Tu teléfono</label>
                     </div>
 
                     <div class="md-form">
                         <i class="fa fa-pencil prefix"></i>
                         <textarea type="text" id="form8" class="md-textarea"></textarea>
-                        <label for="form8">Motivo</label>
+                        <label for="form8">Tu Motivo</label>
                     </div>
 
                     <div class="text-xs-center">
@@ -80,13 +80,13 @@
                 <div class="col-md-4">
                     <a class="btn-floating btn-small yellow darken-4"><i class="fa fa-phone"></i></a>
                     <p>+ 01 234 567 89</p>
-                    <p>Miercoles - Viernes, 12:00-9:00</p>
+                    <p>Lunes a Viernes, 12:00-9:00pm</p>
                 </div>
 
                 <div class="col-md-4">
                     <a class="btn-floating btn-small yellow darken-4"><i class="fa fa-envelope"></i></a>
                     <p>ccdonamirian@gmail.com</p>
-                    <p>sale@gmail.com</p>
+                    <p>ventas@gmail.com</p>
                 </div>
             </div>
 

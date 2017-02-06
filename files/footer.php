@@ -21,12 +21,12 @@
             <div class="col-md-2 col-md-offset-1">
                 <h5 class="title">Links</h5>
                 <ul>
-                    <li><a href="#!">Nosotros</a></li>
-                    <li><a href="#!">Servicios</a></li>
-                    <li><a href="#!">Galeria</a></li>
-                    <li><a href="#!">Eventos</a></li>
-                    <li><a href="#!">Feria de Comida</a></li>
-                    <li><a href="#!">Horarios</a></li>
+                    <li><a href="nosotros">Nosotros</a></li>
+                    <li><a href="servicios">Servicios</a></li>
+                    <li><a href="galeria">Galeria</a></li>
+                    <li><a href="eventos">Eventos</a></li>
+                    <li><a href="feria">Feria de Comida</a></li>
+                    <li><a href="horarios">Horarios</a></li>
                 </ul>
             </div>
             <!--/.Second column-->
@@ -38,12 +38,12 @@
                 <h5 class="title">Planta Baja</h5>
                 <ul>
                     <li><a href="#!">El Bodegón de la Colombia</a></li>
-                    <li><a href="#!">Ferredima</a></li>
-                    <li><a href="#!">Mom Yogurt</a></li>
-                    <li><a href="#!">Strato</a></li>
-                    <li><a href="#!">Panadería, Pastelería y Exquisiteces 2015</a></li>
-                    <li><a href="#!">Art Kids</a></li>
-                    <li><a href="#!">Planet for Kids</a></li>
+                    <li><a href="tiendas/ferredima">Ferredima</a></li>
+                    <li><a href="tiendas/mom-yogurt">Mom Yogurt</a></li>
+                    <li><a href="tiendas/strato-ambienti">Strato Ambienti</a></li>
+                    <li><a href="tiendas/exquisiteces-pan">Panadería, Pastelería y Exquisiteces 2015</a></li>
+                    <li><a href="tiendas/art-kids">Art Kids</a></li>
+                    <li><a href="tiendas/planet-for-kids">Planet for Kids</a></li>
                 </ul>
             </div>
             <!--/.Third column-->
@@ -54,10 +54,11 @@
             <div class="col-md-2">
                 <h5 class="title">Primer Piso</h5>
                 <ul>
-                    <li><a href="#!">Royal Party</a></li>
-                    <li><a href="#!">Latinas</a></li>
-                    <li><a href="#!">Aldi</a></li>
-                    <li><a href="#!">Grillrestobar</a></li>
+                    <li><a href="tiendas/royal-party">Royal Party</a></li>
+                    <li><a href="tiendas/royal-toys">Royal Toys</a></li>
+                    <li><a href="tiendas/latinas">Latinas</a></li>
+                    <li><a href="tiendas/aldi">Aldi</a></li>
+                    <li><a href="tiendas/grillrestobar">Grillrestobar</a></li>
                 </ul>
             </div>
             <!--/.Fourth column-->
@@ -127,17 +128,19 @@
 <!-- SCRIPTS -->
 
 <!-- JQuery -->
-<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-2.2.3.min.js"></script>
 
 <!-- Tooltips -->
-<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/tether.min.js"></script>
+<script type="text/javascript" src="assets/js/tether.min.js"></script>
 
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="http://localhost/ccdonamirian.com/assets/js/newmdb.min.js"></script>
+<script type="text/javascript" src="assets/js/newmdb.min.js"></script>
 
+<!-- Lightgallery plugin javascript -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/lightgallery/1.3.5/js/lightgallery.min.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.js"></script>
 
@@ -148,16 +151,29 @@
 
     Ps.initialize(el);
 
+    $("#lightgallery").lightGallery(); 
+
 </script>
 
 <script>
 
-    var seccion = (window.location.pathname).split('/');
-    //alert(seccion[2]);
+    function obtener_hora() {
+        var tiempo = new Date();
+        var hora   = tiempo.getHours();
+        return hora;
+    };
 
+    function obtener_minuto() {
+        var tiempo = new Date();
+        var minuto = tiempo.getMinutes();
+        return minuto;
+    };
+
+    var seccion = (window.location.pathname).split('/');
+    
     switch(seccion[2]) {
         case 'galeria':
-            imagen = 'dia';
+            imagen = 'dia';            
             break;
 
         case 'contacto':
@@ -165,23 +181,51 @@
             break;
 
         case 'servicios':
-            imagen = 'noche';
+            imagen = 'navidad';            
+            break;
+
+        case 'tiendas':
+            imagen = 'fondo_default';
             break;
 
         case 'index.php':
-            imagen = 'fondo';
+            //if (obtener_hora() <= 18 && obtener_minuto() == 00)
+            if (obtener_hora() < 18)
+            {
+                imagen = 'navidad_dia';
+            }
+            else
+            {
+                imagen = 'navidad';
+            }
             break;
 
         default:
-            imagen = 'fondo';
+            //if (obtener_hora() <= 18 && obtener_minuto() == 00)
+            if (obtener_hora() < 18)
+            {
+                imagen = 'navidad_dia';
+            }
+            else
+            {
+                imagen = 'navidad';           
+            }
             break;
 
     }
-
-    $("body").css('background', 'url("assets/img/fondo/'+ imagen +'.jpg") no-repeat center center fixed').delay(500);
-    $('body').css({"background-size":"cover"});
+    
+    if ($(window).width() <= 480) {
+        $("body").css('background', 'url("assets/img/fondo/fondo_default.jpg") no-repeat center center fixed');
+        $('body').css({"background-size":"cover"});
+    } else {
+        $("body").css('background', 'url("assets/img/fondo/'+ imagen +'.jpg") no-repeat center center fixed');
+        $('body').css({"background-size":"cover"});
+    }
        
-</script>
+
+    $('#myModal').modal('show');
+
+</script>    
 <div class="drag-target" style="-moz-user-select: none; left: 0px;"></div>
 
 </body>

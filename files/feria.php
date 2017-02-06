@@ -3,9 +3,9 @@
     <section class="section text-xs-center">
 
         <!--Section heading-->
-        <h1 class="section-heading">Tiendas: Planta Baja</h1>
+        <h1 class="section-heading">Feria de Comida</h1>
         <!--Section description-->
-        <p class="section-description">Disfruta de las mejores tiendas, contamos con ferreteria, cocinas, panaderia, muebles infantiles, peluqueria infantil y los mejores helados de yogurt. Ven y visita el Centro Comercial más exclusivo de la ciudad.</p>
+        <p class="section-description">Ven y disfruta de nuestra más exclusiva feria de comida, con el menú más variado de la ciudad, para todos los gustos. Ofrecemos los mejores desayunos, los más exquisitos almuerzos y la cena que te encantará. Visitanos.</p>
 
         <!--First row-->
         <div class="row">
@@ -15,7 +15,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/tienda.jpg">
+                    <img src="assets/img/feria/casa_vieja.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -23,10 +23,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="tiendas/modelo" class="orange-text"><h5><i class="fa fa-beer"></i> Licores</h5></a>
-                    <h3>El Bodegón de la Colombia</h3>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi incidunt.</p>
-                    <a href="tiendas/modelo" class="btn btn-pin"><i class="fa fa-shopping-bag left"></i> Ver tienda</a>
+                    <!--<a href="feria/modelo" class="orange-text"><h5><i class="fa fa-beer"></i> Licores</h5></a>-->
+                    <h3>Casa Vieja Gourmet</h3>
+                    <p>La mejor comida criolla de la ciudad: desayunos, almuerzos, pabellón, picadillo, sopas y mucho más.</p>
+                    <a href="feria/casa-vieja" class="btn btn-pin"><i class="fa fa-cutlery left"></i> Ver local</a>
                 </div>
 
             </div>
@@ -37,7 +37,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/ferredima.jpg">
+                    <img src="assets/img/feria/glass.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -45,11 +45,11 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="tiendas/ferredima" class="orange-text"><h5><i class="fa fa-wrench"></i> Ferreteria</h5></a>
-                    <h3>Ferredima</h3>
-                    <p>Somos especialistas en luces e iluminación led, encuentra todo para tu hogar.</p>
-                    <a class="btn btn-pin" href="tiendas/ferredima">
-                        <i class="fa fa-shopping-bag left"></i> Ver tienda
+                    <!--<a href="feria/ferredima" class="orange-text"><h5><i class="fa fa-wrench"></i> Ferreteria</h5></a>-->
+                    <h3>Glass rolls & cafe</h3>
+                    <p>Lo más deliciosos rolls y dulces. Ven a probar nuestros más variados postres.</p>
+                    <a class="btn btn-pin" href="feria/glass">
+                        <i class="fa fa-cutlery left"></i> Ver local
                     </a>
                 </div>
 
@@ -67,7 +67,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/mom_yogurt.jpg">
+                    <img src="assets/img/feria/il_fratelli.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -75,11 +75,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="" class="orange-text"><h5><i class="fa fa-glass"></i> Heladeria</h5></a>
-                    <h3>Mom Yogurt</h3>
-                    <p>Ofrecemos el más delicioso helado de yogurt, deleitate con nuestro sabores y combinalos como desees.</p>
-                    <a class="btn btn-pin" href="tiendas/mom-yogurt">
-                        <i class="fa fa-shopping-bag left"></i> Ver tienda
+                    <h3>Il Fratelli</h3>
+                    <p>Las más sabrosas pizzas italianas de la ciudad, pídela a tu manera y con los ingredientes de tu selección.</p>
+                    <a class="btn btn-pin" href="feria/il-fratelli">
+                        <i class="fa fa-cutlery left"></i> Ver local
                     </a>
                 </div>
 
@@ -91,7 +90,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/strato_ambienti.jpg">
+                    <img src="assets/img/feria/popeyes.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -99,11 +98,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="" class="orange-text"><h5><i class="fa fa-cubes"></i> Cocinas Italianas</h5></a>
-                    <h3>Strato ambienti</h3>
-                    <p>Tenemos la cocina de tus sueños, a tu medida y con garantia de una verdadera Cocina Italiana.</p>
-                    <a class="btn btn-pin" href="tiendas/strato-ambienti">
-                        <i class="fa fa-shopping-bag left"></i> Ver tienda
+                    <h3>Popeye's Fried Chicken</h3>
+                    <p>Tenemos el mejor pollo frito de la ciudad.</p>
+                    <a class="btn btn-pin" href="feria/popeyes">
+                        <i class="fa fa-cutlery left"></i> Ver local
                     </a>
                 </div>
 
@@ -121,7 +119,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/exquisiteces_pan.jpg">
+                    <img src="assets/img/feria/burgourmet.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -129,11 +127,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="" class="orange-text"><h5><i class="fa fa-cutlery"></i> Panaderia</h5></a>
-                    <h3>Panaderia, Pasteleria y Exquisiteces 2015</h3>
-                    <p>El más exquisito pan de la ciudad, con un tradición desde 1998. Ofrecemos desayunos y gran variedad en almuerzos.</p>
-                    <a class="btn btn-pin" href="tiendas/exquisiteces-pan">
-                        <i class="fa fa-shopping-bag left"></i> Ver tienda
+                    <h3>Burgourmet</h3>
+                    <p>¿Hamburguesas Gourmet? Ven a probar las mejores de la ciudad.</p>
+                    <a class="btn btn-pin" href="feria/burgourmet">
+                        <i class="fa fa-cutlery left"></i> Ver local
                     </a>
                 </div>
 
@@ -145,7 +142,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/art_kids.jpg">
+                    <img src="assets/img/feria/casa_abuela.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -153,11 +150,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="" class="orange-text"><h5><i class="fa fa-cubes"></i> Mobiliario Infantil y Juvenil</h5></a>
-                    <h3>Art Kids</h3>
-                    <p>Encuentra la cama ideal para tu hijo, con la mejor variedad y calidad en mobiliarios infantiles.</p>
-                    <a class="btn btn-pin" href="tiendas/art-kids">
-                        <i class="fa fa-shopping-bag left"></i> Ver tienda
+                    <h3>La Casa de la Abuela</h3>
+                    <p>Tradición y variedad, los más ricos batidos y un menú tradicional para ti.</p>
+                    <a class="btn btn-pin" href="feria/casa-de-la-abuela">
+                        <i class="fa fa-cutlery left"></i> Ver local
                     </a>
                 </div>
                 
@@ -175,7 +171,7 @@
 
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/planet_for_kids.jpg">
+                    <img src="assets/img/feria/popeyes_ice_cream.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>
@@ -183,11 +179,10 @@
 
                 <!--Excerpt-->
                 <div class="card-block">
-                    <a href="" class="orange-text"><h5><i class="fa fa-scissors"></i> Peluqueria Infantil</h5></a>
-                    <h3>Planet for Kids</h3>
-                    <p>Los mejores peinados y cortes para los más pequeñas de casa. Ven a conocernos.</p>
-                    <a class="btn btn-pin" href="tiendas/planet-for-kids">
-                        <i class="fa fa-shopping-bag left"></i> Ver tienda
+                    <h3>Popeye's Ice Cream</h3>
+                    <p>Los helados más deliciosos y con la mejor variedad. Ven a disfrutar del mejor sabor.</p>
+                    <a class="btn btn-pin" href="feria/popeyes-ice-cream">
+                        <i class="fa fa-cutlery left"></i> Ver local
                     </a>
                 </div>
 
@@ -199,7 +194,7 @@
 
                 <!--Featured image-->
             <!--    <div class="view overlay hm-white-slight z-depth-2">
-                    <img src="assets/img/tiendas/planta_baja/art_kids.jpg">
+                    <img src="assets/img/feria/art_kids.jpg">
                     <a>
                         <div class="mask"></div>
                     </a>

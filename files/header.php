@@ -9,17 +9,22 @@
 <link rel="shortcut icon" type="image/x-icon" href="http://localhost/ccdonamirian.com/assets/img/logo/favicon.ico">
 <title>Centro Comercial Doña Mirian</title>
 
+<base href="http://localhost/ccdonamirian.com/">
+
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
 <!-- Bootstrap core CSS -->
-<link href="http://localhost/ccdonamirian.com/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Material Design Bootstrap -->
-<link href="http://localhost/ccdonamirian.com/assets/css/newmdb.min.css" rel="stylesheet">
+<link href="assets/css/newmdb.min.css" rel="stylesheet">
 
 <!-- Material Design Bootstrap -->
-<link href="http://localhost/ccdonamirian.com/assets/css/ccdonamirian.css" rel="stylesheet">
+<link href="assets/css/ccdonamirian.css" rel="stylesheet">
+
+<!-- Lightgallery plugin para galeria de fotos -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/lightgallery/1.3.5/css/lightgallery.min.css">
 
 </head>
 
@@ -34,7 +39,7 @@
         <!-- Logo -->
         <li>
             <div class="logo-wrapper waves-light">
-                <a href="index.php"><img src="" class="img-fluid flex-center"></a>
+                <a href="index.php"><!--<img src="" class="img-fluid flex-center">--></a>
             </div>
         </li>
         <!--/. Logo -->
@@ -78,17 +83,19 @@
                 <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-cutlery"></i> Feria de Comida<i class="fa fa-angle-down rotate-icon"></i></a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="#" class="waves-effect">Casa Vieja</a>
+                            <li><a href="feria/casa-vieja" class="waves-effect">Casa Vieja Gourmet</a>
                             </li>
-                            <li><a href="#" class="waves-effect">Glass rolls&cafe</a>
+                            <li><a href="feria/glass" class="waves-effect">Glass rolls&cafe</a>
                             </li>
-                            <li><a href="#" class="waves-effect">Il Fratelli</a>
+                            <li><a href="feria/il-fratelli" class="waves-effect">Il Fratelli</a>
                             </li>
-                            <li><a href="#" class="waves-effect">El Arabito Ali</a>
+                            <li><a href="feria/popeyes" class="waves-effect">Popeye's Fried Chicken</a>
                             </li>
-                            <li><a href="#" class="waves-effect">Burgourmet</a>
+                            <li><a href="feria/burgourmet" class="waves-effect">Burgourmet</a>
                             </li>
-                            <li><a href="#" class="waves-effect">La Casa de la Abuela</a>
+                            <li><a href="feria/casa-de-la-abuela" class="waves-effect">La Casa de la Abuela</a>
+                            </li>
+                            <li><a href="feria/popeyes-ice-cream" class="waves-effect">Popeye's Ice Cream</a>
                             </li>
                         </ul>
                     </div>

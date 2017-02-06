@@ -5,7 +5,7 @@
         <!--Section heading-->
         <h1 class="section-heading">Nuestros Servicios al Cliente</h1>
         <!--Section description-->
-        <p class="section-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="section-description">Contamos con los mejores servicios a disposición de nuestros visitantes.</p>
 
         <!--First row-->
         <div class="row">
@@ -26,7 +26,7 @@
                     </div>
                     <div class="col-xs-10">
                         <h4 class="feature-title">Seguridad</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                        <p class="grey-text">Vigilancia garantizada, dentro y fuera de nuestro estacionamiento, para que su experiencia sea placentera y segura.</p>
                     </div>
                 </div>
                 <!--/First row-->
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-xs-10">
                         <h4 class="feature-title">Estacionamiento</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                        <p class="grey-text">35 puestos de estacionamientos organizados para la mejor fluides de vehículos en nuestros espacios.</p>
                     </div>
                 </div>
                 <!--/Second row-->
@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-xs-10">
                         <h4 class="feature-title">Planta Eléctrica</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                        <p class="grey-text">Contamos con una excelente planta eléctrica para que tu experiencia de compras sea sin interrupciones.</p>
                     </div>
                 </div>
                 <!--/Third row-->
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-xs-10">
                         <h4 class="feature-title">Puesto para Discapacitados</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                        <p class="grey-text">Siempre atentos para que las personas con discapacidades funcionales puedan vivir la experiencia del centro comercial más exclusivo.</p>
                     </div>
                 </div>
                 <!--/First row-->
@@ -96,7 +96,7 @@
                     </div>
                     <div class="col-xs-10">
                         <h4 class="feature-title">Anti-Incendios</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                        <p class="grey-text">Nos aseguramos de contar con un moderno sistema para casos de incendios y evitar pérdidas materiales.</p>
                     </div>
                 </div>
                 <!--/Second row-->
@@ -110,7 +110,7 @@
                     </div>
                     <div class="col-xs-10">
                         <h4 class="feature-title">Pantalla Gigante</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                        <p class="grey-text">La Mejor Publicidad para nuestras tiendas y locatarios en una pantalla led gigante, visible para todos los transeuntes de la Avenida Colombia.</p>
                     </div>
                 </div>
                 <!--/Third row-->
@@ -130,9 +130,3 @@
     <!--/Projects section v.4-->
 </main> 
 
-<script type="text/javascript">
-    var url = window.location.pathname.split("/");
-    if (url[2] == 'servicios') {
-        $("#servicios").addClass("active");
-    }
-</script>

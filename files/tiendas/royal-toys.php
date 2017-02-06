@@ -8,8 +8,8 @@
             <div class="col-md-4">
 
                 <div class="widget-wrapper">
-                    <h4>Local: PB-01</h4>
-                    <img src="assets/img/tiendas/planta_baja/modelo/Logo.png" alt="Logo" class="img-fluid">
+                    <h4>Local N° 11</h4>
+                    <img src="assets/img/tiendas/primer_piso/royal_toys/Logo.png" alt="Logo" class="img-fluid">
                     <br>
                 </div>
 
@@ -19,10 +19,10 @@
                     <div class="card">
                        <div class="card-block text-xs-left">
                             <!--Title-->
-                            <h4 class="card-title"><strong>Tienda Modelo</strong></h4>
-                            <h5>La Mejor Tienda de Barinas</h5>
+                            <h4 class="card-title">Royal Toys</h4>
+                            <h5>Juguetería - ¡Tu alegría, nuestra satisfacción!</h5>
 
-                            <p class="card-text">Ofrecemos a nuestra más distinguida clientela, todo la ropa casual y moderna. Somos la tienda más exclusiva de la Ciudad. Ven y Visitanos!!!
+                            <p class="card-text">Ofrecemos a nuestra más distinguida clientela, todo en juguetes para niños y niñas. La Juguetería con mayor variedad, mejores precios y más exclusiva de la Ciudad. Ven y Visitanos!!!
                             </p>
 
                             <h5>Siguenos en las Redes Sociales</h5>
@@ -31,14 +31,15 @@
                             <!--Twitter-->
                             <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
                             <!--Instagram-->
-                            <a type="button" class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"></i></a>
+                            <a type="button" class="btn-floating btn-small btn-ins" href="https://www.instagram.com/royaltoysbns/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
                             <!--Email-->
-                            <a type="button" class="btn-floating btn-small btn-mail"><i class="fa fa-envelope"></i></a>
+                            <a type="button" class="btn-floating btn-small btn-mail" href="mail: royaltoysmercadeo@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
 
-                            <p>Website: <a href="#">www.ccdonamirian.com</a></p>
-                            <p>Horario: M J V S D - 8am a 9pm</p>
-                            <p><i class="fa fa-phone"></i> (0273) 5555667</p>
-                            <p><i class="fa fa-mobile"></i> (0414) 5555667</p>
+                            <p>Website: <a href="http://www.royaltoys.com">www.royaltoys.com</a></p>
+                            <p>Horario: L M M J - 2pm a 10pm | V S D - 3pm a 11pm</p>
+                            <p><i class="fa fa-phone"></i> (0273) 1231233 | <i class="fa fa-mobile"></i> (0424) 3213211</p>
 
                         </div>
                     </div>
@@ -54,7 +55,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="divider-new">
-                            <h2 class="h2-responsive">Tienda Modelo</h2>
+                            <h2 class="h2-responsive">Royal Toys</h2>
                         </div>
                         <!--Carousel Wrapper-->
                         <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
@@ -69,23 +70,23 @@
                             <!--Slides-->
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
-                                    <img src="http://localhost/ccdonamirian.com/assets/img/tiendas/planta_baja/modelo/item1.JPG" alt="First slide">
+                                    <img src="assets/img/tiendas/primer_piso/royal_toys/item4.jpg" alt="First slide">
                                     <div class="carousel-caption">
-                                        <h4>Moda</h4>
+                                        <h4>Juguetes</h4>
                                         <br>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="http://localhost/ccdonamirian.com/assets/img/tiendas/planta_baja/modelo/item2.JPG" alt="Second slide">
+                                    <img src="assets/img/tiendas/primer_piso/royal_toys/item2.jpg" alt="Second slide">
                                     <div class="carousel-caption">
-                                        <h4>Variedad Gastronómica</h4>
+                                        <h4>Diversión</h4>
                                         <br>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="http://localhost/ccdonamirian.com/assets/img/tiendas/planta_baja/modelo/item3.JPG" alt="Third slide">
+                                    <img src="assets/img/tiendas/primer_piso/royal_toys/item3.jpg" alt="Third slide">
                                     <div class="carousel-caption">
-                                        <h4>Exclusividad</h4>
+                                        <h4>Alegría</h4>
                                         <br>
                                     </div>
                                 </div>
@@ -119,7 +120,7 @@
 
                             <!--Card image-->
                             <div class="view overlay hm-white-slight">
-                                <img src="http://localhost/ccdonamirian.com/assets/img/tiendas/planta_baja/modelo/aldi.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/tiendas/primer_piso/royal_toys/producto1.jpg" class="img-fluid" alt="">
                                 <a href="#">
                                     <div class="mask"></div>
                                 </a>
@@ -129,9 +130,9 @@
                             <!--Card content-->
                             <div class="card-block">
                                 <!--Title-->
-                                <h4 class="card-title">Producto Titulo</h4>
+                                <h4 class="card-title">Juguetes</h4>
                                 <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                <p class="card-text"></p>
                             </div>
                             <!--/.Card content-->
 
@@ -147,7 +148,7 @@
 
                             <!--Card image-->
                             <div class="view overlay hm-white-slight">
-                                <img src="http://localhost/ccdonamirian.com/assets/img/tiendas/planta_baja/modelo/burgourmet.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/tiendas/primer_piso/royal_toys/producto2.jpg" class="img-fluid" alt="">
                                 <a href="#">
                                     <div class="mask"></div>
                                 </a>
@@ -157,9 +158,9 @@
                             <!--Card content-->
                             <div class="card-block">
                                 <!--Title-->
-                                <h4 class="card-title">Producto Titulo</h4>
+                                <h4 class="card-title">Para niñas</h4>
                                 <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                <p class="card-text"></p>
                             </div>
                             <!--/.Card content-->
 
@@ -175,7 +176,7 @@
 
                             <!--Card image-->
                             <div class="view overlay hm-white-slight">
-                                <img src="http://localhost/ccdonamirian.com/assets/img/tiendas/planta_baja/modelo/mom_yogurt.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/tiendas/primer_piso/royal_toys/producto3.jpg" class="img-fluid" alt="">
                                 <a href="#">
                                     <div class="mask"></div>
                                 </a>
@@ -185,9 +186,9 @@
                             <!--Card content-->
                             <div class="card-block">
                                 <!--Title-->
-                                <h4 class="card-title">Producto Titulo</h4>
+                                <h4 class="card-title">Para niños</h4>
                                 <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                <p class="card-text"></p>
                             </div>
                             <!--/.Card content-->
 
