@@ -6,7 +6,7 @@
     <!--Section heading-->
     <h1 class="section-heading">Contáctanos</h1>
     <!--Section sescription-->
-    <p class="section-description mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+    <p class="section-description mb-5">Si quieres conocer más del centro comercial o solicitar información de tiendas, servicios o feria de comida, comunicate con nosotros por los siguientes medios:</p>
 
     <div class="row">
 
@@ -22,7 +22,7 @@
                         <h3><i class="fa fa-envelope"></i> Escribenos:</h3>
                     </div>
 
-                    <p>Si deseas conocer más de nosotros, envia tu comentario.</p>
+                    <p>Envia tu comentario, sugerencia o requierimiento vía Email.</p>
                     <br>
 
                     <!--Body-->
@@ -79,14 +79,14 @@
 
                 <div class="col-md-4">
                     <a class="btn-floating btn-small yellow darken-4"><i class="fa fa-phone"></i></a>
-                    <p>+ 01 234 567 89</p>
-                    <p>Lunes a Viernes, 12:00-9:00pm</p>
+                    <p>0426-5731963</p>
+                    <p>Lunes a Viernes</p>
+                    <p>8am-12m | 2pm-6pm</p>
                 </div>
 
                 <div class="col-md-4">
                     <a class="btn-floating btn-small yellow darken-4"><i class="fa fa-envelope"></i></a>
-                    <p>ccdonamirian@gmail.com</p>
-                    <p>ventas@gmail.com</p>
+                    <p>condominio.donamirian2016@gmail.com</p>
                 </div>
             </div>
 

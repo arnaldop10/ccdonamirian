@@ -223,7 +223,7 @@
     }
        
 
-    $('#myModal').modal('show');
+    //$('#myModal').modal('show');
 
 </script>    
 <div class="drag-target" style="-moz-user-select: none; left: 0px;"></div>

@@ -1,6 +1,6 @@
 
 <main class="pb">
-    <div class="container-fluid text-xs-center" style="height: 1024px;">
+    <div class="container-fluid text-xs-center" style="height: 1250px;">
 		<h1>Nuestra Empresa</h1>
 		<br>
 		<div class="row">
@@ -9,10 +9,13 @@
 			</div>
 			<div class="col-md-8">
 				<p class="text-justify">
-					Centro Comercial Doña Mirian, es el centro comercial más exclusivo de la ciudad, es una estructura arquitectónica moderna que aporta distinción a la zona alta de la ciudad, ubicado estratégicamente para ofrecer un centro de compras de primera generación, donde los visitantes encuentran entretenimiento, moda, comercio, mobiliarios y gastronomía. Además cuenta con servicios de calidad, para nuestra más distinguida clientela. 
+					El Centro Comercial Dona Miriam, es una construcción moderna, diseñada para formar parte de la vida de los barineses, creando un espacio adaptado a las necesidades de la población para brindar a sus visitantes una experiencia única, agradable e incomparable.
 				</p>
 				<p class="text-justify">
-					Centro Comercial Doña Mirian, abrió al público barinés el 30 de Agosto de 2.016 y cuenta con veintiún (21) locales comerciales, feria de comida, espacios cómodos y confortables, estacionamiento, planta eléctrica, entre otros.
+					Concentra en un solo lugar gran diversidad de tiendas y servicios, incluyendo lugares de ocio, esparcimiento y diversión, que le permite a la gente de la zona, familiares y turistas disfrutar de una experiencia única.
+				</p>
+				<p class="text-justify">
+					Ubicado en la Avenida Colombia de Alto Barinas Norte, con fácil acceso, seguridad, planta eléctrica y gran comodidad ofrece a sus clientes una variedad de establecimientos para ir de compras, entretenerse y deleitar el paladar.  Actualmente cuenta con 22 establecimientos, entre éstos: heladería, ferretería, peluquería infantil, mobiliario infantil, salón de fiestas, juguetería, tienda de ropa deportiva femenina, peluquería y boutique. También cuenta con  un restaurant, una panadería y una feria de comida con 06 alternativas para comer, estacionamiento seguro para convertirse en la mejor experiencia de compras o relax en Barinas.
 				</p>
 			</div>
 		</div>
@@ -21,15 +24,30 @@
 		<br>
 		<div class="row">
 			<div class="col-md-8">
+				<h3 style="text-align: left;">Misión</h3>
 				<p class="text-justify">
-					Sed nulla ante, interdum nec mattis eu, convallis eu leo. Donec dapibus purus tellus, eu posuere sem condimentum eget. Curabitur at erat et erat ultrices porta id at eros. Sed in magna elit. Curabitur vitae hendrerit justo. Pellentesque mollis nulla odio, pulvinar vehicula ante venenatis ac. Ut porttitor ante id sem imperdiet venenatis. Nunc diam eros, rutrum ut leo nec, hendrerit pretium nunc. Aenean pulvinar orci eget velit imperdiet, sed vulputate lectus tempor. Mauris pellentesque venenatis lacus, nec hendrerit felis condimentum ac. Nunc at ullamcorper erat, eu elementum sapien.
+					Posicionarse como la mejor opción de la comunidad Barinesa, ofreciendo en un solo sitio un espacio de compras, esparcimiento, relajación, confort y seguridad, brindando experiencias inigualables,  con personal cordial y calificado en cada una de sus locales que cubran las expectativas de nuestros clientes, arrendatarios y visitantes,  mediante el mejoramiento continuo, excelente servicio y diversificación de mercado que contenga a toda la comunidad.
 				</p>
+				<h3 style="text-align: left;">Visión</h3>
 				<p class="text-justify">
-					Nullam auctor nisi mi, vel fringilla magna varius in. Duis eleifend enim mi. Nullam risus ligula, rutrum quis felis molestie, sagittis lobortis ante. Nullam imperdiet tortor a enim blandit, ut euismod enim volutpat. Aliquam pulvinar varius porttitor. Sed rutrum vestibulum nisi et porttitor. Duis ut dignissim urna. Sed mattis, odio eu posuere dignissim, est augue semper diam, sed pellentesque massa velit sit amet ante.
+					Ser el Centro Comercial  más exclusivo de la ciudad, proporcionando un ambiente confiable, confortable y seguro donde la comunidad  encuentren la más amplia oferta de servicios y productos, bajo los estándares de calidad. Convirtiéndonos en el Centro Comercial donde las personas quieran estar, comprar, compartir y vivir los mejores momentos de sus vidas"
 				</p>
-				<p class="text-justify">
-					Praesent elit magna, vulputate quis auctor quis, porta non erat. Nunc pulvinar pellentesque justo non auctor. Vestibulum faucibus ultrices aliquet. Suspendisse sit amet purus vitae ex scelerisque dignissim. Nulla in urna ac orci elementum malesuada. Aliquam mollis sodales quam pellentesque interdum. Vivamus elementum tortor at massa venenatis placerat. Vestibulum posuere, quam vitae rhoncus dapibus, mauris nunc egestas nisi, a dignissim nulla augue eu sem. Nunc quis lectus vitae ligula mattis vestibulum vel at massa. Donec eget nibh a nunc fringilla fermentum a finibus nulla. Duis hendrerit nec tellus a sodales. 
-				</p>
+				<h3 style="text-align: left;">Valores</h3>
+				<ul>
+					<li>Trabajo en equipo.</li>
+					<li>Humildad.</li>
+					<li>Honestidad.</li>
+					<li>Honradez.</li>
+					<li>Tolerancia.</li>
+					<li>Innovación, Creatividad e Iniciativa.</li>
+					<li>Responsabilidad.</li>
+					<li>Puntualidad.</li>
+					<li>Compromiso.</li>
+					<li>Respeto.</li>
+					<li>Solidaridad y Colaboración.</li>
+					<li>Confianza.</li>
+					<li>Ética y Lealtad.</li>
+				</ul>
 			</div>
 			<div class="col-md-4">
 				<img src="assets/img/galeria/portada.jpg" alt="CC Doña Mirian" class="img-fluid">
